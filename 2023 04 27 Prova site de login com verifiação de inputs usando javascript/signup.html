@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Signup</title>
+    </head>
+
+    <body>
+
+        <div id="container">
+            <form>
+                <H1>Signup</H1>
+
+                <input id="email" type="email"  placeholder="Email">
+                
+                <div class="senha">
+                    <input class="senha" id="nova-senha" type="password" placeholder="Create Password">
+                    <img class="senha" src="imagens/Olho-fechado.png" id="olho1" onclick="alteraVisibilidadeDeSenha('nova-senha','olho1')">
+                </div>
+
+                <div class="senha">
+                    <input class="senha" id="confirma-senha" type="password" placeholder="Confirm Password">
+                    <img class="senha" src="imagens/Olho-fechado.png" id="olho2" onclick="alteraVisibilidadeDeSenha('confirma-senha','olho2')">
+                </div>
+            </form>
+
+            <div class="submit">  <button class="submit" onclick="signup()"> Signup </button>  </div>           
+
+            <p>Already have an account? <a href="login.html">login</a> </p>
+
+            <div id="or-linhas">  
+                <hr/> Or <hr/> 
+            </div>
+
+            <table onclick="autoPreencher()" class="auto-login" id="facebook">
+                <tr>
+                    <td class="icone" >
+                        <img class="icone" src="imagens/Facebook.png" alt="Facebook">
+                    </td>
+                    <td class="face">
+                        Login with Facebook 
+                    </td>
+                </tr>   
+            </table>
+
+            <table onclick="autoPreencher()" class="auto-login" id="google">
+                <tr>   
+                    <td class="icone">
+                        <img class="icone" src="imagens/Google.png" alt="Google">
+                    </td>
+                    <td>
+                        Login with Google
+                    </td>
+                </tr>   
+            </table>
+        </div>
+
+    </body>
+</html>

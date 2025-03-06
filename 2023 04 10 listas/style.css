@@ -1,0 +1,12 @@
+* {
+    font-size: 25px;
+}
+
+.red {
+    color: red;
+}
+
+.ponto-cheio {
+    list-style: disc;
+}
+

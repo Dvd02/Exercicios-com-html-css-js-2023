@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+
+#tabelaCentro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 70%;
+    height: 70%;
+}
+
+td {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#c3 {
+    color: white;
+    background-color: lightskyblue;
+}
+
+#c2, #c4, #c8 {
+    font-weight: bold;
+}

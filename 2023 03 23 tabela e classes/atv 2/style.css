@@ -1,0 +1,21 @@
+.preto {
+    background-color: black;
+    border-radius: 50%;
+}
+
+.branco {
+    background-color: white;
+}
+
+table {
+    width: 50%;
+    height: 100vh;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+body {
+    background-color: lightgray;
+    margin: 0px;
+    padding: 0px;
+}

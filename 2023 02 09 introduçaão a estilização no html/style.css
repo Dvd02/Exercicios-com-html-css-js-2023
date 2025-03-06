@@ -1,0 +1,54 @@
+
+body {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #b1afaf; 
+    border-top: 2px solid black; 
+    border-bottom: 4px solid black; 
+    color: #313131; 
+    font-weight: lighter; 
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-indent: 2em;
+    padding: 0px 80px;
+}
+
+ul {
+    list-style-type: none;
+    text-indent: 90px;
+}
+
+footer {
+    width: 100%; 
+    display: flex; 
+    border-top: 8px solid black;
+    justify-content: space-between;
+}
+
+.SemEspacamentoSuperior {
+    margin-top: -20px;
+}
+
+.AlinhadoEsquerda {
+    text-align: left;
+}
+
+#DivSubTitulo {
+    display: flex;
+    padding-right: 200px;
+    justify-content: right; 
+}
+
+#SubTitulo {
+    text-align: center;
+}

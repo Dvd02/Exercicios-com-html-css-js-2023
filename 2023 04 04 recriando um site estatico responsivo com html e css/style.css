@@ -1,0 +1,134 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+table {
+    width: 100%;
+}
+
+table.corpo {
+    margin: 15px 0px;
+}
+
+#menu {
+    width: 50%;
+    text-align: left;
+}
+
+#notificacoes {
+    width:50%;
+    text-align: right;
+}
+
+.icones {
+    width: 20%;
+}
+
+td.icones2 {
+    width: 25%;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 15px 0px;
+    border: 1px solid black;
+}
+
+td.icones2#ride{
+    background-color: palevioletred;
+}
+
+img.icones2 {
+    width: 25%;
+}
+
+
+td.icones3{
+    width: 10%;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 10px 0px;
+    border: 1px solid black;
+}
+
+img.icones3 {
+    width: 40%;
+}
+
+#modelo {
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 13px;
+}
+
+h4 {
+    font-size: 11px;
+}
+
+#modelo-img {
+    width: 30%;
+}
+
+#modelo-dados {
+    width: 70%;
+    padding-left: 8px;
+}
+
+#compra-dados {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.rosio {
+    padding-left: 25px;
+    background-color: rgb(250, 231, 249);
+    color: rgb(241, 113, 199);
+    border-radius: 10px;
+}
+
+.a-direita {
+    text-align: right;
+    padding-right: 13px;
+}
+
+#jeck {
+    width: 50%;
+    border-radius:  8px;
+}
+
+#jeck-dados {
+    width: 70%;
+}
+
+.icones4 {
+    width: 15px;
+}
+
+/*
+table {
+    border: 1px solid green; 
+}
+
+td {
+    border: 1px solid gold;
+} */

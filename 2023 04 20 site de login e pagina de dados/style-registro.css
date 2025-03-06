@@ -1,0 +1,61 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: #ffffff;
+    border-radius:5px;
+    padding: 30px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+label {
+    font-weight: bold;
+}
+
+.fundo-colorido {
+    background-image: linear-gradient(to bottom right, rgb(74, 135, 226), rgb(88, 1, 168));
+}
+
+.genero {
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.tdEspaco { 
+    display: table; 
+    float:left; 
+    margin-right: 20px
+}
+
+#linha {
+    width: 40px;
+    height: 4px;
+    border-radius: 5px;
+}
+
+#registrar {
+    width: 100%;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0,0);
+}

@@ -1,0 +1,57 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #026778;
+    text-align: center;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+footer {
+    background-color: #3e7079;
+}
+
+.centraliza {
+    width: 400px;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid rgb(97, 97, 97);
+}
+
+.full-horzontal {
+    width: 100%;
+}
+
+#login {
+    margin-top: 150px;
+    height: 270px;
+    background-color: rgb(238, 238, 238);
+}
+
+#sobre-a-conta {
+    background-color: hsl(186deg, 20%, 90.2%);
+    text-align: right;
+    align-items: right;
+}
+
+#cadastre-se {
+    color: #1d8ce7;
+    background-color: white;
+    border: 1px solid yellow;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+#logar {
+    background-color: hsl(191.19deg, 49.17%, 47.06%);
+    height: 30px;
+    color: white;
+}
+
+::placeholder {
+    font-style: italic;
+}

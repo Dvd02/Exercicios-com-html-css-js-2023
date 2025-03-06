@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+}
+
+table {
+    height: 100%;
+    width: 100%;
+    border: 5px solid black;
+}
+
+img {
+    height: 200px;
+}
+
+td {
+    width: 200px;
+    height: 200px;
+
+    border: 1px solid black;
+}
+
+.pos-1-2 {
+    background-color: lightgray;
+}
