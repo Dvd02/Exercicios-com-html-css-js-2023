@@ -1,0 +1,39 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    resize: both;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    overflow: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+}
+
+.item {
+    background-color: lightcoral;
+    width: 90px;
+    height: 90px;
+    border: 5px solid rgb(14, 195, 54);
+    margin: 3px;
+
+    flex: 1 0 100px;
+}

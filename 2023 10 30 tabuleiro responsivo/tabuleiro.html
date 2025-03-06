@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>teste</title>
+        <link rel="stylesheet" href="tabuleiro.css">
+        <script src="tabuleiro.js"></script>
+    </head>
+    
+    <body> 
+        <div class="controles">
+            linhas : <button onclick="tabuleiro(-1,0)">-</button> <span id="linhas">3</span> <button onclick="tabuleiro(1,0)">+</button> <br/>
+            colunas: <button onclick="tabuleiro(0,-1)">-</button> <span id="colunas">3</span> <button onclick="tabuleiro(0,1)">+</button>
+        </div>
+
+        <div class="jogo">
+        
+        <div class="tabuleiro">
+            <div class="linha">
+                <div class="celula"></div>
+                <div class="celula"></div>
+                <div class="celula"></div>
+            </div>
+
+            <div class="linha">
+                <div class="celula"></div>
+                <div class="celula"></div>
+                <div class="celula"></div>
+            </div>
+            
+            <div class="linha">
+                <div class="celula"></div>
+                <div class="celula"></div>
+                <div class="celula"></div>
+            </div>
+        </div>
+       
+       </div>
+       
+    </body>
+</html>
