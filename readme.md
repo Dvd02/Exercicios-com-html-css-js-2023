@@ -1,4 +1,4 @@
-# Estudos e Exercícios de Lógica de Programação com VisualG
+# Exercícios com html, css e js de 2023
 
 Este repositório contém uma organização estruturada de estudos e exercícios de HTML e CSS, desenvolvidos ao longo do ano de 2023.
 
